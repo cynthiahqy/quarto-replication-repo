@@ -22,6 +22,4 @@ format:
   html:
     theme: cosmos
     toc: true
-    code-copy: true
-    code-overflow: wrap
 
