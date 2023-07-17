@@ -10,7 +10,7 @@ website:
     pinned: true
     align: center
     style: docked
-    search: true
+    search: false 
     collapse-level: 2
  
     contents:
