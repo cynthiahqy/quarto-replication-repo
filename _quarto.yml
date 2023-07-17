@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Data and Code for: Matching Mechanisms for Monkey Placement"
+  description: "Supplementary materials and replication package"
+  
+  sidebar:
+    pinned: true
+    align: center
+    style: docked
+    search: true
+    collapse-level: 2
+ 
+    contents:
+      - text: Code
+      - text: Data
+      - text: Paper
