@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs 
 
 website:
   title: "Data and Code for: Matching Mechanisms for Monkey Placement"
