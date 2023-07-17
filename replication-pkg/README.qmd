@@ -65,10 +65,6 @@ All code can be found in the folder `code`
 
 ### Software
 
-#### R Session details
-
-{{< include output/_sessionInfo.txt >}}
-
 ### Controlled Randomness
 
 Random seed is set at line ___ of program ___
