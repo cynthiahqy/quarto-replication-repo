@@ -17,3 +17,12 @@ website:
       - text: Code
       - text: Data
       - text: Paper
+
+format:
+  html:
+    theme: cosmos
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+
+bibliography: references.bib
