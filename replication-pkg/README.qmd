@@ -1,6 +1,7 @@
 ---
 title: "README and Replication Guidance"
 format: gfm
+bibliography: references.bib
 ---
 
 ## Overview
