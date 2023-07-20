@@ -1,25 +1,37 @@
 project:
   type: website
-  output-dir: docs 
+  output-dir: _site
+  render: 
+    - replication-pkg/README.qmd
+    - "*.qmd"
+  resources:
+    - paper/elsevier-article.pdf
 
 website:
   title: "Data and Code for: Matching Mechanisms for Monkey Placement"
   description: "Supplementary materials and replication package"
   
   sidebar:
-    pinned: true
-    align: center
     style: docked
-    search: false 
+    search: true
+    contents: auto
+
+  navbar:
+    search: false
     collapse-level: 2
- 
-    contents:
+
+    left:
+      - text: README
+        href: replication-pkg/README.qmd
       - text: Code
+        href: code.qmd
       - text: Data
+        href: data.qmd
       - text: Paper
+        href: paper/elsevier-article.pdf
 
 format:
   html:
-    theme: cosmos
+    theme: simplex
     toc: true
 
